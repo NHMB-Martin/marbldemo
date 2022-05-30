@@ -50,6 +50,5 @@
             <field name="website">http://www.wood-corner.com</field>
             <field name="image_1920" type="base64" file="base/static/img/res_partner_1-image.png"/>
         </record>
-        </record>
     </data>
 </odoo>
