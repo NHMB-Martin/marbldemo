@@ -47,25 +47,7 @@
             <field name="street">Dijkgraaf</field>
             <field name="zip">6921 RL</field>
             <field name="city">Duiven</field>
-
-        </record>	
-        <record id="res.partner_3" model="res.partner">	
-	        <field name="name">Gemeente Zevenaar</field>
-	        <field name="street">Kerkstraat</field>
-	        <field name="zip">6901 AA</field>
-	        <field name="city">Zevenaar</field>
-        </record>	
-        <record id="res.partner_4" model="res.partner">	
-			<field name="name">Autobedrijf de Nieuwe Band</field>
-			<field name="street">Biesbosweg</field>
-			<field name="zip">5145 PZ</field>
-			<field name="city">Waalwijk</field>
-		</record>	
-        <record id="res.partner_5" model="res.partner">	
-		    <field name="name">Manege het Zwarte Paard</field>
-		    <field name="street">Vondelstraat</field>
-		    <field name="zip">1054 GT</field>
-	    	<field name="city">Amsterdam</field>
-    	</record>	
+            <field name="country">base.nl</field>
+        </record>		
     </data>
 </odoo>
