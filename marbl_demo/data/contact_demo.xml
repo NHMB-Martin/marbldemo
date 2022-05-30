@@ -36,18 +36,19 @@
        <!--
         Resource: res.partner
         -->
-        <record id="res_partner_1" model="res.partner">	
+<record id="res_partner_1" model="res.partner">	
             <field name="name">Vitens</field>
             <field name="street">Groningensingel 1</field>
             <field name="zip">6835 EA </field>
             <field name="city">Arnhem</field>
+            <field name="country_id" ref="base.nl"/>
         </record>	
         <record id="res_partner_2" model="res.partner">	
             <field name="name">Liander</field>
             <field name="street">Dijkgraaf 4</field>
             <field name="zip">6921 RL</field>
             <field name="city">Duiven</field>
-            <field name="country">base.nl</field>
+            <field name="country_id" ref="base.nl"/>
         </record>	
         
 
@@ -71,8 +72,8 @@
             <field name="street">Vondelstraat 140 </field>
             <field name="zip">1054 GT</field>
             <field name="city">Amsterdam</field>
-            <field name="country_id" ref="base.nl"/>
-        </record>	
+            	<field name="country_id" ref="base.nl"/>
+        	</record>	
 
 		<record id="res.partner_6" model="res.partner">	
 			<field name="name">Brandweerkazerne Zevenaar</field>
@@ -82,5 +83,5 @@
 			<field name="country_id" ref="base.nl"/>
             <field name="image1920" type="base64" file="/static/img/res.partner_6.png"/>
 		</record>	
-    </data>
+	</data>
 </odoo>
