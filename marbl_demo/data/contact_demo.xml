@@ -36,15 +36,21 @@
        <!--
         Resource: res.partner
         -->
-        <record id="res_partner_1" model="res.partner">
-            <field name="name">Wood Corner</field>
-            <field name="street">1839 Arbor Way</field>
-            <field name="city">Turlock</field>
-            <field name="zip">95380</field>
-            <field name="country_id" ref="base.us"/>
-            <field name="email">wood.corner26@example.com</field>
-            <field name="phone">(623)-853-7197</field>
-            <field name="website">http://www.wood-corner.com</field>
-        </record>
+        <record id="res.partner_1" model="res.partner">	
+            <field name="name">Vitens</field>
+            <field name="street">Groningensingel 1</field>
+            <field name="zip">6835 EA </field>
+            <field name="city">Arnhem</field>
+            <field name="country_id">base.nl</field>
+            <field name="is_company" eval="True" />
+        </record>	
+        <record id="res.partner_2" model="res.partner">	
+            <field name="name">Liander</field>
+            <field name="street">Dijkgraaf 4</field>
+            <field name="zip">6921 RL</field>
+            <field name="city">Duiven</field>
+            <field name="country_id">base.nl</field>
+            <field name="is_company" eval="True" />
+        </record>	
     </data>
 </odoo>
