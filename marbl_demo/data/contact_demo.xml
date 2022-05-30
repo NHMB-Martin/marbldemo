@@ -36,21 +36,20 @@
        <!--
         Resource: res.partner
         -->
-        <record id="res.partner_1" model="res.partner">	
+        <record id="res_partner_1" model="res.partner">	
             <field name="name">Vitens</field>
-            <field name="street">Groningensingel 1</field>
+            <field name="street">Groningensingel</field>
             <field name="zip">6835 EA </field>
             <field name="city">Arnhem</field>
             <field name="country_id">base.nl</field>
             <field name="is_company" eval="True" />
         </record>	
-        <record id="res.partner_2" model="res.partner">	
+        <record id="res_partner_2" model="res.partner">	
             <field name="name">Liander</field>
-            <field name="street">Dijkgraaf 4</field>
+            <field name="street">Dijkgraaf</field>
             <field name="zip">6921 RL</field>
             <field name="city">Duiven</field>
             <field name="country_id">base.nl</field>
-            <field name="is_company" eval="True" />
         </record>	
     </data>
 </odoo>
