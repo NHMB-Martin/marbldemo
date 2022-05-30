@@ -38,9 +38,7 @@
        <!--
         Resource: res.partner
         -->
-        <record id="main_partner" model="res.partner">
-            <field name="email">info@yourcompany.com</field>
-            <field name="website">www.example.com</field>
+
         </record>
         <record id="res_partner_1" model="res.partner">
             <field name="name">Wood Corner</field>
