@@ -15,7 +15,6 @@
             <field name="zip">93190</field>
             <field name="street">Rue Léon Dierx 73</field>
             <field name="phone">+33 1 25 54 45 69</field>
-            <field name="tag_ids" eval="[(6, 0, [ref('sales_team.categ_oppor6')])]"/>
             <field name="priority">1</field>
             <field name="user_id" ref="base.user_admin"/>
             <field name="date_open" eval="(DateTime.today() - relativedelta(months=2)).strftime('%Y-%m-%d %H:%M')"/>
