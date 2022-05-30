@@ -28,7 +28,7 @@
         'views/views.xml',
         'views/templates.xml',
         'data/crm_data.xml',
-        'data/contact_demo.xml'
+        'data/product_data.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
