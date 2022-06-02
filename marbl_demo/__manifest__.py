@@ -20,7 +20,11 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'crm', 'sale_management', 'om_account_accountant', 'web_pwa_oca', 'hr_timesheet', 'muk_web_theme'],
+
+    'depends': ['base', 'crm', 'sale_management', 'om_account_accountant', 'web_pwa_oca', 'hr_timesheet', 'muk_web_theme', 'stock', ],
+
+    
+
 
     # always loaded
     'data': [
@@ -28,7 +32,9 @@
         'views/views.xml',
         'views/templates.xml',
         'data/crm_data.xml',
+
 #        'data/product_data.xml'
+
     ],
     # only loaded in demonstration mode
     'demo': [
