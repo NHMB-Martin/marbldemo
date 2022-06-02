@@ -492,12 +492,10 @@
 			<field name="parent_id" ref="res_partner_16"/>		
 		</record>			
 		<record id="res_partner_address_38" model="res.partner">			
-			<field name="name">Annette Retraite</field>		
-			#N/B		
+			<field name="name">Annette Retraite</field>			
 		</record>			
 		<record id="res_partner_address_39" model="res.partner">			
-			<field name="name">Ben Lenig</field>		
-			#N/B		
+			<field name="name">Ben Lenig</field>			
 		</record>			
 		<record id="res_partner_address_40" model="res.partner">			
 			<field name="name">Sanne Wieleman</field>		
