@@ -32,6 +32,7 @@
         'views/views.xml',
         'views/templates.xml',
         'data/crm_data.xml',
+        'data/contact_data.xml'
 
 #        'data/product_data.xml'
 

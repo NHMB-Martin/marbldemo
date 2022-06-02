@@ -138,6 +138,20 @@
 			<field name="city">Rotterdam</field>
 			<field name="country_id" ref="base.nl"/>
 		</record>	
-			
+        <record id="res_partner_15" model="res_partner">	
+            <field name="name">Samsung</field>
+            <field name="street">Evert van de Beekstraat 310</field>
+            <field name="zip">1118 CX</field>
+            <field name="city">Schiphol</field>
+            <field name="country_id" ref="base.nl"/>
+        </record>	
+		<record id="res_partner_16" model="res_partner">	
+            <field name="name">Louis Widmer</field>
+            <field name="street">Oost I  Stephensonweg 14</field>
+            <field name="zip">4207 HB</field>
+            <field name="city">Gorinchem</field>
+            <field name="country_id" ref="base.nl"/>
+        </record>	
+				
 	</data>
 </odoo>
