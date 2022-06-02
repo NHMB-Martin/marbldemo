@@ -132,7 +132,7 @@
 			<field name="city">Apeldoorn</field>
 			<field name="country_id" ref="base.nl"/>
 		</record>	
-    	<record id="res_partner_14" model="res_partner">	
+    	<record id="res_partner_14" model="res.partner">	
 			<field name="name">KPN</field>
 			<field name="street">Wilhelminakade 123</field>
 			<field name="zip">3072 AP</field>
