@@ -346,11 +346,7 @@
 		<record id="res_partner_address_1" model="res.partner">	
 			<field name="name">Willie Waterig</field>
 			<field name="parent_id" ref="res_partner_1"/>
-		</record>	
-				<record id="res_partner_address_1" model="res.partner">			
-			<field name="name">Willie Waterig</field>		
-			<field name="parent_id" ref="res_partner_1"/>		
-		</record>			
+		</record>		
 		<record id="res_partner_address_2" model="res.partner">			
 			<field name="name">Teun de Kraan</field>		
 			<field name="parent_id" ref="res_partner_1"/>		
