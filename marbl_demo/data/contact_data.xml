@@ -173,6 +173,7 @@
 			<field name="zip">3833 BP</field>
 			<field name="city">Leusden</field>
 			<field name="country_id" ref="base.nl"/>
+			<field name="image_1920" type="base64" file="marbl_demo/static/img/audi.jpg"/>
 		</record>	
 		<record id="res_partner_20" model="res.partner">	
 			<field name="name">Van der Valk</field>
