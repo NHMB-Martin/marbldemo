@@ -82,5 +82,62 @@
 			<field name="city">Zevenaar</field>
 			<field name="country_id" ref="base.nl"/>
 		</record>	
+    	<record id="res_partner_7" model="res_partner">	
+            <field name="name">Banketbakker het Gouden Broodje</field>
+            <field name="street"> Electronicaweg 7-13</field>
+            <field name="zip">9503 GA</field>
+            <field name="city">Stadskanaal</field>
+            <field name="country_id" ref="base.nl"/>
+    	</record>	
+     	<record id="res_partner_8" model="res_partner">	
+			<field name="name">Viskraam de Gladde Haring</field>
+			<field name="street">Palingweg 16</field>
+			<field name="zip"> 3751 BJ</field>
+			<field name="city">Bunschoten-Spakenburg</field>
+			<field name="country_id" ref="base.nl"/>
+		</record>	 
+        <record id="res_partner_9" model="res_partner">	
+			<field name="name">Product For Him</field>
+			<field name="street">Puccinistraat 25</field>
+			<field name="zip">6904 ET</field>
+			<field name="city">Zevenaar</field>
+			<field name="country_id" ref="base.nl"/>
+		</record>
+        <record id="res_partner_10" model="res_partner">	
+			<field name="name">Product For Her</field>
+			<field name="street">Puccinistraat 25</field>
+			<field name="zip">6904 ET</field>
+			<field name="city">Zevenaar</field>
+			<field name="country_id" ref="base.nl"/>
+		</record>		  
+		<record id="res_partner_11" model="res_partner">	
+            <field name="name">Luxe Thuis</field>
+            <field name="street">Puccinistraat 25</field>
+            <field name="zip">6904 ET</field>
+            <field name="city">Zevenaar</field>
+            <field name="country_id" ref="base.nl"/>
+        </record>		
+        <record id="res_partner_12" model="res_partner">	
+            <field name="name">Collistar</field>
+            <field name="street">Winthontlaan 6</field>
+            <field name="zip">3526 KV</field>
+            <field name="city">Utrecht</field>
+            <field name="country_id" ref="base.nl"/>
+        </record>	
+        <record id="res_partner_13" model="res_partner">	
+			<field name="name">Politie eenheid Oost-Nederland</field>
+			<field name="street">Europaweg 79</field>
+			<field name="zip">7336 AK</field>
+			<field name="city">Apeldoorn</field>
+			<field name="country_id" ref="base.nl"/>
+		</record>	
+    	<record id="res_partner_14" model="res_partner">	
+			<field name="name">KPN</field>
+			<field name="street">Wilhelminakade 123</field>
+			<field name="zip">3072 AP</field>
+			<field name="city">Rotterdam</field>
+			<field name="country_id" ref="base.nl"/>
+		</record>	
+			
 	</data>
 </odoo>
