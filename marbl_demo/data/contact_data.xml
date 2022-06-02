@@ -40,6 +40,7 @@
             <field name="name">Vitens Arnhem</field>
             <field name="street">Groningensingel 1</field>
             <field name="zip">6835 EA </field>
+			<field name="company_type">company</field>
             <field name="city">Arnhem</field>
             <field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/vitens.jpeg"/>
@@ -49,6 +50,7 @@
             <field name="name">Liander</field>
             <field name="street">Dijkgraaf 4</field>
             <field name="zip">6921 RL</field>
+			<field name="company_type">company</field>
             <field name="city">Duiven</field>
             <field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/liander.png"/>
@@ -58,6 +60,7 @@
         <record id="res_partner_3" model="res.partner">	
             <field name="name">Gemeente Zevenaar</field>
             <field name="street">Kerkstraat 27</field>
+			<field name="company_type">company</field>
             <field name="zip">6901 AA</field>
             <field name="city">Zevenaar</field>
             <field name="country_id" ref="base.nl"/>
@@ -67,6 +70,7 @@
 		<record id="res_partner_4" model="res.partner">	
 			<field name="name">Autobedrijf de Nieuwe Band</field>
 			<field name="street">Biesbosweg 14</field>
+			<field name="company_type">company</field>
 			<field name="zip">5145 PZ</field>
 			<field name="city">Waalwijk</field>
 			<field name="country_id" ref="base.nl"/>
@@ -75,6 +79,7 @@
             <record id="res_partner_5" model="res.partner">	
             <field name="name">Manege het Zwarte Paard</field>
             <field name="street">Vondelstraat 140 </field>
+			<field name="company_type">company</field>
             <field name="zip">1054 GT</field>
             <field name="city">Amsterdam</field>
             <field name="country_id" ref="base.nl"/>
@@ -85,14 +90,16 @@
 			<field name="name">Brandweerkazerne Zevenaar</field>
 			<field name="street">Professor Aalbersestraat 2</field>
 			<field name="zip">6904 CA</field>
+			<field name="company_type">company</field>
 			<field name="city">Zevenaar</field>
 			<field name="country_id" ref="base.nl"/>
-			<field name="image_1920" type="base64" file="marbl_demo/static/img/brandweer.png"/>
+			<field name="image_1920" type="base64" file="marbl_demo/static/img/brandweer.jpeg"/>
 		</record>	
         <record id="res_partner_7" model="res.partner">	
             <field name="name">Banketbakker het Gouden Broodje</field>
             <field name="street"> Electronicaweg 7-13</field>
             <field name="zip">9503 GA</field>
+			<field name="company_type">company</field>
             <field name="city">Stadskanal</field>
             <field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/broodje.png"/>
@@ -101,6 +108,7 @@
 			<field name="name">Viskraam de Gladde Haring</field>
 			<field name="street">Palingweg 16</field>
 			<field name="zip"> 3751 BJ</field>
+			<field name="company_type">company</field>
 			<field name="city">Bunschoten-Spakenburg</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/haring.jpeg"/>
@@ -110,6 +118,7 @@
 			<field name="name">Product For Him</field>
 			<field name="street">Puccinistraat 25</field>
 			<field name="zip">6904 ET</field>
+			<field name="company_type">company</field>
 			<field name="city">Zevenaar</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/forhim.jpeg"/>
@@ -118,6 +127,7 @@
 			<field name="name">Product For Her</field>
 			<field name="street">Puccinistraat 25</field>
 			<field name="zip">6904 ET</field>
+			<field name="company_type">company</field>
 			<field name="city">Zevenaar</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/forher.png"/>
@@ -127,6 +137,7 @@
             <field name="street">Puccinistraat 25</field>
             <field name="zip">6904 ET</field>
             <field name="city">Zevenaar</field>
+			<field name="company_type">company</field>
             <field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/luxe.png"/>
         </record>		
@@ -134,6 +145,7 @@
             <field name="name">Collistar</field>
             <field name="street">Winthontlaan 6</field>
             <field name="zip">3526 KV</field>
+			<field name="company_type">company</field>
             <field name="city">Utrecht</field>
             <field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/collistar.jpeg"/>
@@ -142,6 +154,7 @@
 			<field name="name">Politie eenheid Oost-Nederland</field>
 			<field name="street">Europaweg 79</field>
 			<field name="zip">7336 AK</field>
+			<field name="company_type">company</field>
 			<field name="city">Apeldoorn</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/politie.jpeg"/>
@@ -150,6 +163,7 @@
 			<field name="name">KPN</field>
 			<field name="street">Wilhelminakade 123</field>
 			<field name="zip">3072 AP</field>
+			<field name="company_type">company</field>
 			<field name="city">Rotterdam</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/kpn.png"/>
@@ -158,6 +172,7 @@
             <field name="name">Samsung</field>
             <field name="street">Evert van de Beekstraat 310</field>
             <field name="zip">1118 CX</field>
+			<field name="company_type">company</field>
             <field name="city">Schiphol</field>
             <field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/samsung.png"/>
@@ -166,6 +181,7 @@
             <field name="name">Louis Widmer</field>
             <field name="street">Oost I  Stephensonweg 14</field>
             <field name="zip">4207 HB</field>
+			<field name="company_type">company</field>
             <field name="city">Gorinchem</field>
             <field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/louis.jpeg"/>
@@ -174,6 +190,7 @@
 			<field name="name">Ford</field>
 			<field name="street">Stroombaan 16</field>
 			<field name="zip">1181 VX</field>
+			<field name="company_type">company</field>
 			<field name="city">Amstelveen</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/ford.jpeg"/>
@@ -182,6 +199,7 @@
 			<field name="name">Juwelier het Gouden Hangertje</field>
 			<field name="street">Spaklerweg 4</field>
 			<field name="zip">1096 BA</field>
+			<field name="company_type">company</field>
 			<field name="city">Amsterdam</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/hangertje.png"/>
@@ -190,6 +208,7 @@
 			<field name="name">Audi</field>
 			<field name="street">Zuiderinslag 2</field>
 			<field name="zip">3833 BP</field>
+			<field name="company_type">company</field>
 			<field name="city">Leusden</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/audi.jpg"/>
@@ -198,6 +217,7 @@
 			<field name="name">Van der Valk</field>
 			<field name="street">Winthontlaan 4-6</field>
 			<field name="zip">3526 KV</field>
+			<field name="company_type">company</field>
 			<field name="city">Utrecht</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/valk.jpeg"/>
@@ -206,6 +226,7 @@
 			<field name="name">Tesla</field>
 			<field name="street">Burgemeester Stramanweg 122</field>
 			<field name="zip">1101 EN</field>
+			<field name="company_type">company</field>
 			<field name="city">Amsterdam</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/tesla.png"/>
@@ -215,6 +236,7 @@
 			<field name="street">Einsteinlaan 5</field>
 			<field name="zip">2289 CC</field>
 			<field name="city">Rijswijk</field>
+			<field name="company_type">company</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/bmw.jpeg"/>
 		</record>	
@@ -223,6 +245,7 @@
 			<field name="street">Ravenswade 4</field>
 			<field name="zip">3439 LD</field>
 			<field name="city">Nieuwegein</field>
+			<field name="company_type">company</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/mercedes.jpeg"/>
 		</record>	
@@ -231,6 +254,7 @@
 			<field name="street">De Corridor 25</field>
 			<field name="zip">3621 ZA</field>
 			<field name="city">Breukelen</field>
+			<field name="company_type">company</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/kia.jpeg"/>
 		</record>	
@@ -239,6 +263,7 @@
 			<field name="street">Zuiderinslag 8</field>
 			<field name="zip">3833 BP</field>
 			<field name="city">Leusden</field>
+			<field name="company_type">company</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/porsche.jpeg"/>
 		</record>	
@@ -248,6 +273,7 @@
 			<field name="zip">1185 XE</field>
 			<field name="city">Amstelveen</field>
 			<field name="country_id" ref="base.nl"/>
+			<field name="company_type">company</field>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/mitsubishi.jpeg"/>
 		</record>	
 		<record id="res_partner_27" model="res.partner">	
@@ -255,11 +281,13 @@
 			<field name="street">Kosterijland 42</field>
 			<field name="zip">3981 AJ</field>
 			<field name="city">Bunnik</field>
+			<field name="company_type">company</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/apple.png"/>
 		</record>	
 		<record id="res_partner_28" model="res.partner">	
 			<field name="name">Microsoft</field>
+			<field name="company_type">company</field>
 			<field name="street">Evert van de Beekstraat 354</field>
 			<field name="zip">1118 CZ</field>
 			<field name="city">Schiphol</field>
@@ -272,6 +300,7 @@
 			<field name="zip">2909 LK </field>
 			<field name="city">Capelle aan den IJssel</field>
 			<field name="country_id" ref="base.nl"/>
+			<field name="company_type">company</field>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/honda.jpeg"/>
 		</record>	
 		<record id="res_partner_30" model="res.partner">	
@@ -279,6 +308,7 @@
 			<field name="street">Ankersmidplein 2-14 HG</field>
 			<field name="zip">1506 CK</field>
 			<field name="city">Zaandam</field>
+			<field name="company_type">company</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/doner.jpeg"/>
 		</record>	
@@ -286,6 +316,7 @@
 			<field name="name">Vattenfall</field>
 			<field name="street">Hoekenrode 8</field>
 			<field name="zip">1102 BR</field>
+			<field name="company_type">company</field>
 			<field name="city">Amsterdam</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/vattenfall.png"/>
@@ -294,6 +325,7 @@
 			<field name="name">Timmerbedrijf de Harde Hamer</field>
 			<field name="street">Grote Bosweg 1</field>
 			<field name="zip">3771 LJ</field>
+			<field name="company_type">company</field>
 			<field name="city">Barneveld</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/hamer.jpeg"/>
@@ -302,6 +334,7 @@
 			<field name="name">Hovenier Struiksma</field>
 			<field name="street">Koninklijk Park 16</field>
 			<field name="zip">7315 JA</field>
+			<field name="company_type">company</field>
 			<field name="city">Apeldoorn</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/struiksma.jpeg"/>
@@ -310,6 +343,7 @@
 			<field name="name">Linux</field>
 			<field name="street">Noord Koninginnewal 28</field>
 			<field name="zip">5701 NK</field>
+			<field name="company_type">company</field>
 			<field name="city">Helmond</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/linux.png"/>
@@ -318,6 +352,7 @@
 			<field name="name">Yamaha Motor Europe</field>
 			<field name="street">Koolhovenlaan 101</field>
 			<field name="zip">1119 NC</field>
+			<field name="company_type">company</field>
 			<field name="city">Schiphol-Rijk</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/yamaha.jpeg"/>
@@ -326,6 +361,7 @@
 			<field name="name">Liemerscollege Heerenmäten</field>
 			<field name="street">Heerenmäten 6</field>
 			<field name="zip">6904 GZ</field>
+			<field name="company_type">company</field>
 			<field name="city">Zevenaar</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/lc.png"/>
@@ -334,6 +370,7 @@
 			<field name="name">Kinderopvang de Gillende Deugniet</field>
 			<field name="street">Lunettenlaan 501</field>
 			<field name="zip">5263 NT</field>
+			<field name="company_type">company</field>
 			<field name="city">Vught</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/deugniet.jpeg"/>
@@ -343,6 +380,7 @@
 			<field name="street">Harbor 580</field>
 			<field name="zip">3115 JD</field>
 			<field name="city">Schiedam</field>
+			<field name="company_type">company</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/mammoet.png"/>
 		</record>	
@@ -350,6 +388,7 @@
 			<field name="name">Restaurant de Schone Vork</field>
 			<field name="street">Spinhuisplein 1</field>
 			<field name="zip">8011 ZZ</field>
+			<field name="company_type">company</field>
 			<field name="city">Zwolle</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/vork.jpeg"/>
@@ -359,6 +398,7 @@
 			<field name="street">Hengelder 3</field>
 			<field name="zip">6902 PA</field>
 			<field name="city">Zevenaar</field>
+			<field name="company_type">company</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/hvz.png"/>
 		</record>	
@@ -366,6 +406,7 @@
 			<field name="name">Sportvereniging O.B.W.</field>
 			<field name="street">Marconistraat 16</field>
 			<field name="zip">6902 PC</field>
+			<field name="company_type">company</field>
 			<field name="city">Zevenaar</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/obw.png"/>
@@ -374,6 +415,7 @@
 			<field name="name">ZRC De Duuvels</field>
 			<field name="street">Marconistraat 12</field>
 			<field name="zip">6902 PC</field>
+			<field name="company_type">company</field>
 			<field name="city">Zevenaar</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/zrc.png"/>
@@ -382,6 +424,7 @@
 			<field name="name">Loetje</field>
 			<field name="street">Oranjebaan 13</field>
 			<field name="zip">1183NN</field>
+			<field name="company_type">company</field>
 			<field name="city">Amstelveen</field>
 			<field name="country_id" ref="base.nl"/>
 			<field name="image_1920" type="base64" file="marbl_demo/static/img/loetje.png"/>
