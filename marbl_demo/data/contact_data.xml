@@ -42,6 +42,8 @@
             <field name="zip">6835 EA </field>
             <field name="city">Arnhem</field>
             <field name="country_id" ref="base.nl"/>
+			<field name="image_1920" type="base64" file="marbl_demo/static/img/vitens.jpeg"/>
+
         </record>	
         <record id="res_partner_2" model="res.partner">	
             <field name="name">Liander</field>
@@ -49,6 +51,7 @@
             <field name="zip">6921 RL</field>
             <field name="city">Duiven</field>
             <field name="country_id" ref="base.nl"/>
+			<field name="image_1920" type="base64" file="marbl_demo/static/img/liander.png"/>
         </record>	
         
 
@@ -58,6 +61,7 @@
             <field name="zip">6901 AA</field>
             <field name="city">Zevenaar</field>
             <field name="country_id" ref="base.nl"/>
+			<field name="image_1920" type="base64" file="marbl_demo/static/img/zevenaar.jpeg"/>
         </record>	
 
 		<record id="res_partner_4" model="res.partner">	
@@ -66,6 +70,7 @@
 			<field name="zip">5145 PZ</field>
 			<field name="city">Waalwijk</field>
 			<field name="country_id" ref="base.nl"/>
+			<field name="image_1920" type="base64" file="marbl_demo/static/img/band.jpeg"/>
 		</record>	        
             <record id="res_partner_5" model="res.partner">	
             <field name="name">Manege het Zwarte Paard</field>
