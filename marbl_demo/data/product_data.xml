@@ -15,7 +15,7 @@
             <field name="name">Services</field>
         </record>
         <record id="product_category_6" model="product.category">
-            <field name="parent_id" ref="product.product_category_3"/>
+            <field name="parent_id" ref="product_category_3"/>
             <field name="name">Saleable</field>
         </record>
         <record id="product_category_4" model="product.category">
@@ -23,14 +23,13 @@
             <field name="name">Software</field>
         </record>
         <record id="product_category_5" model="product.category">
-            <field name="parent_id" ref="product_category_1"/>
+            <field name="parent_id" ref="product.product_category_1"/>
             <field name="name">Office Furniture</field>
         </record>
         <record id="product_category_consumable" model="product.category">
-            <field name="parent_id" ref="product_category_all"/>
+            <field name="parent_id" ref="product.product_category_all"/>
             <field name="name">Consumable</field>
         </record>
-
                 <!-- Service products -->
         <record id="product_product_1" model="product.product">
             <field name="name">Virtual Interior Design</field>
@@ -53,3 +52,4 @@
         </record>
     </data>
 </odoo>
+
