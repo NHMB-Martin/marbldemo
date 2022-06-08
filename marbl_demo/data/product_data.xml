@@ -32,7 +32,7 @@
         </record>
                 <!-- Service products -->
         <record id="product_product_1" model="product.product">
-            <field name="name">Virtual Interior Design</field>
+            <field name="name">Analyse</field>
             <field name="categ_id" ref="product_category_3"/>
             <field name="standard_price">20.5</field>
             <field name="list_price">30.75</field>
@@ -42,10 +42,19 @@
         </record>
 
         <record id="product_product_2" model="product.product">
-            <field name="name">Virtual Home Staging</field>
+            <field name="name">Reistijd</field>
             <field name="categ_id" ref="product_category_3"/>
-            <field name="standard_price">25.5</field>
-            <field name="list_price">38.25</field>
+            <field name="standard_price">50</field>
+            <field name="list_price">50</field>
+            <field name="type">service</field>
+            <field name="uom_id" ref="uom.product_uom_hour"/>
+            <field name="uom_po_id" ref="uom.product_uom_hour"/>
+        </record>
+                <record id="product_product_3" model="product.product">
+            <field name="name">Consultancy</field>
+            <field name="categ_id" ref="product_category_3"/>
+            <field name="standard_price">100</field>
+            <field name="list_price">100</field>
             <field name="type">service</field>
             <field name="uom_id" ref="uom.product_uom_hour"/>
             <field name="uom_po_id" ref="uom.product_uom_hour"/>
