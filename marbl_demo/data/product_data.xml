@@ -98,8 +98,8 @@
         <record id="product_product_9" model="product.product">
             <field name="name">APPLE MacBook Pro 16 (2021) - Spacegrijs M1 Pro 512 GB</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">2200</field>
-            <field name="list_price">2400</field>
+            <field name="standard_price">1900</field>
+            <field name="list_price">2000</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_10" model="product.product">
@@ -182,8 +182,8 @@
         <record id="product_product_21" model="product.product">
             <field name="name">APPLE AirPods 2 met oplaadcase</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">130</field>
-            <field name="list_price">130</field>
+            <field name="standard_price">100</field>
+            <field name="list_price">110</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_22" model="product.product">
