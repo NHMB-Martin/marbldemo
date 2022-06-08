@@ -60,24 +60,24 @@
             <field name="uom_po_id" ref="uom.product_uom_hour"/>
         </record>
         <record id="product_product_4" model="product.product">
-            <field name="name">Macbook</field>
+            <field name="name">APPLE MacBook Air 13.3 (2020) - Spacegrijs M1 1TB 8GB</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">1000</field>
-            <field name="list_price">1000</field>
+            <field name="standard_price">1100</field>
+            <field name="list_price">1400</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_5" model="product.product">
-            <field name="name">Muis</field>
+            <field name="name">APPLE Magic Mouse (2022) - Zwart</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">30</field>
-            <field name="list_price">30</field>
+            <field name="standard_price">80</field>
+            <field name="list_price">85</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_6" model="product.product">
-            <field name="name">Toetsenbord</field>
+            <field name="name">APPLE Magic Keyboard + Numpad</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">50</field>
-            <field name="list_price">50</field>
+            <field name="standard_price">110</field>
+            <field name="list_price">105</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_7" model="product.product">
@@ -91,15 +91,15 @@
         <record id="product_product_8" model="product.product">
             <field name="name">Beeldscherm</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">200</field>
+            <field name="standard_price">180</field>
             <field name="list_price">200</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_9" model="product.product">
-            <field name="name">Netwerkkabel</field>
+            <field name="name">APPLE MacBook Pro 16 (2021) - Spacegrijs M1 Pro 512 GB</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">5</field>
-            <field name="list_price">5</field>
+            <field name="standard_price">2200</field>
+            <field name="list_price">2400</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_10" model="product.product">
@@ -110,10 +110,10 @@
             <field name="type">product</field>
         </record>
         <record id="product_product_11" model="product.product">
-            <field name="name">Netwerkkabel</field>
+            <field name="name">Netgear GS108</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">5</field>
-            <field name="list_price">5</field>
+            <field name="standard_price">25</field>
+            <field name="list_price">30</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_12" model="product.product">
@@ -166,24 +166,24 @@
             <field name="type">product</field>
         </record>
         <record id="product_product_19" model="product.product">
-            <field name="name">Netwerkkabel</field>
+            <field name="name">ACER Chromebook Spin 513 (CP513-1H-S3CL)</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">5</field>
-            <field name="list_price">5</field>
+            <field name="standard_price">180</field>
+            <field name="list_price">180</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_20" model="product.product">
-            <field name="name">Netwerkkabel</field>
+            <field name="name">APPLE 20 Watt USB-C Power Adapter Wit</field>
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">5</field>
             <field name="list_price">5</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_21" model="product.product">
-            <field name="name">Netwerkkabel</field>
+            <field name="name">APPLE AirPods 2 met oplaadcase</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">5</field>
-            <field name="list_price">5</field>
+            <field name="standard_price">130</field>
+            <field name="list_price">130</field>
             <field name="type">product</field>
         </record>
         <record id="product_product_22" model="product.product">

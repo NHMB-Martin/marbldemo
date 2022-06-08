@@ -31,7 +31,7 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
-        'data/company_data.xml',
+#        'data/company_data.xml',
 #        'data/crm_data.xml',
         'data/contact_data.xml',
         'data/product_data.xml'
