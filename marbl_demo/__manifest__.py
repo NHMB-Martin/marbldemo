@@ -34,7 +34,8 @@
 #        'data/company_data.xml',
 #        'data/crm_data.xml',
         'data/contact_data.xml',
-        'data/product_data.xml'
+        'data/product_data.xml',
+        'data/sale_data.xml',
 
     ],
     # only loaded in demonstration mode
