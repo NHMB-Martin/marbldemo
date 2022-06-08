@@ -24,7 +24,7 @@
         </record>
         <record id="product_category_5" model="product.category">
             <field name="parent_id" ref="product.product_category_1"/>
-            <field name="name">Office Furniture</field>
+            <field name="name">Hardware</field>
         </record>
         <record id="product_category_consumable" model="product.category">
             <field name="parent_id" ref="product.product_category_all"/>
@@ -59,11 +59,46 @@
             <field name="uom_id" ref="uom.product_uom_hour"/>
             <field name="uom_po_id" ref="uom.product_uom_hour"/>
         </record>
-        <record id="product_product_3" model="product.product">
+        <record id="product_product_4" model="product.product">
             <field name="name">Macbook</field>
-            <field name="categ_id" ref="product_category_3"/>
+            <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">1000</field>
             <field name="list_price">1000</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_5" model="product.product">
+            <field name="name">Muis</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">30</field>
+            <field name="list_price">30</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_6" model="product.product">
+            <field name="name">Toetsenbord</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">50</field>
+            <field name="list_price">50</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_7" model="product.product">
+            <field name="name">Laptoptas</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">80</field>
+            <field name="list_price">80</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_8" model="product.product">
+            <field name="name">Beeldscherm</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">200</field>
+            <field name="list_price">200</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_10" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
             <field name="type">product</field>
         </record>
     </data>
