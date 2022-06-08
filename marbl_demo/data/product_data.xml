@@ -85,6 +85,7 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">80</field>
             <field name="list_price">80</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/laptoptas.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_8" model="product.product">
@@ -94,11 +95,109 @@
             <field name="list_price">200</field>
             <field name="type">product</field>
         </record>
+        <record id="product_product_9" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
         <record id="product_product_10" model="product.product">
             <field name="name">Netwerkkabel</field>
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">5</field>
             <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_11" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_12" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_13" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_14" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_15" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_16" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+                <record id="product_product_17" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_18" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_19" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_20" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_21" model="product.product">
+            <field name="name">Netwerkkabel</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">5</field>
+            <field name="list_price">5</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_22" model="product.product">
+            <field name="name">SEAGATE STKN4000400 EXPANSION PLUS PORT 4TB</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">90</field>
+            <field name="list_price">90</field>
+            <field name="type">product</field>
+        </record>
+        <record id="product_product_23" model="product.product">
+            <field name="name">SAMSUNG Galaxy A53 5G</field>
+            <field name="categ_id" ref="product_category_5"/>
+            <field name="standard_price">360</field>
+            <field name="list_price">360</field>
             <field name="type">product</field>
         </record>
     </data>
