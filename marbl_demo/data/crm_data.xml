@@ -11,8 +11,6 @@
             <field name="probability">10.0</field>
             <field name="priority">1</field>
             <field name="date_deadline" eval="(DateTime.today() + relativedelta(weeks=2)).strftime('%Y-%m-%d %H:%M')"/>
-            <field name="team_id" ref="sales_team.team_sales_department"/>
-            <field name="user_id" ref="base.user_admin"/>
             <field name="stage_id" ref="crm.stage_lead1"/>
         </record>
         <record id="crm_case_2" model="crm.lead">
