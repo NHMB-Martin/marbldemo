@@ -64,6 +64,7 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">1100</field>
             <field name="list_price">1400</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/macbookair.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_5" model="product.product">
@@ -71,6 +72,7 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">80</field>
             <field name="list_price">85</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/mouse.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_6" model="product.product">
@@ -78,13 +80,14 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">110</field>
             <field name="list_price">105</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/keyboard.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_7" model="product.product">
             <field name="name">Laptoptas</field>
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">80</field>
-            <field name="list_price">80</field>
+            <field name="list_price">100</field>
             <field name="image_1920" type="base64" file="marbl_demo/static/img/laptoptas.png"/>
             <field name="type">product</field>
         </record>
@@ -100,13 +103,15 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">1900</field>
             <field name="list_price">2000</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/macbook16.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_10" model="product.product">
             <field name="name">Netwerkkabel</field>
             <field name="categ_id" ref="product_category_5"/>
-            <field name="standard_price">5</field>
+            <field name="standard_price">2.50</field>
             <field name="list_price">5</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/utp.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_11" model="product.product">
@@ -114,6 +119,7 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">25</field>
             <field name="list_price">30</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/netgear.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_12" model="product.product">
@@ -170,6 +176,7 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">180</field>
             <field name="list_price">180</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/chromebook.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_20" model="product.product">
@@ -177,6 +184,7 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">5</field>
             <field name="list_price">5</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/oplader.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_21" model="product.product">
@@ -184,6 +192,7 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">100</field>
             <field name="list_price">110</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/airpods.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_22" model="product.product">
@@ -191,12 +200,14 @@
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">90</field>
             <field name="list_price">90</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/seagate.png"/>
             <field name="type">product</field>
         </record>
         <record id="product_product_23" model="product.product">
             <field name="name">SAMSUNG Galaxy A53 5G</field>
             <field name="categ_id" ref="product_category_5"/>
             <field name="standard_price">360</field>
+            <field name="image_1920" type="base64" file="marbl_demo/static/img/galaxy.png"/>
             <field name="list_price">360</field>
             <field name="type">product</field>
         </record>
